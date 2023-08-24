@@ -1,0 +1,22 @@
+App As appinfo:
+    BackEnabled: =false
+    OnStart: =
+    StartScreen: |-
+        =Switch(
+            Param("screenname"),
+            "event",
+            EventScreen,
+            "admin",
+            If(User().Email = "AlexW@5v5bmr.onmicrosoft.com"],AdminScreen,WelcomeScreen),
+            "user",
+            UserScreen
+        )
+    Theme: =PowerAppsTheme
+
+    Host As hostControl.DefaultHostControlVariant:
+        OnCancel: =false
+        OnEdit: =false
+        OnNew: =false
+        OnSave: =false
+        OnView: =false
+
