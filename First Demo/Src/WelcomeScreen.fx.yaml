@@ -1,0 +1,14 @@
+WelcomeScreen As screen:
+
+    Label1 As label:
+        FontWeight: =FontWeight.Bold
+        Height: =96
+        Size: =30
+        Text: |-
+            ="Welcome Screen
+            "
+        Width: =732
+        X: =285
+        Y: =183
+        ZIndex: =1
+

@@ -1,0 +1,12 @@
+AdminScreen As screen:
+
+    Label1_1 As label:
+        FontWeight: =FontWeight.Bold
+        Height: =96
+        Size: =30
+        Text: ="Admin Screen"
+        Width: =884
+        X: =285
+        Y: =183
+        ZIndex: =1
+
